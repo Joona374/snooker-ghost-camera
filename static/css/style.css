@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #2179d1;
+  color: #000;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#video-container {
+  position: relative;
+  width: 800px;
+  height: 600px;
+  margin-bottom: 20px;
+}
+
+#live-video-img {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+#canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0.5;
+  pointer-events: none;
+  z-index: 10;
+}
+
+#overlay-image {
+  display: none;
+}
+
+#canvas, #zoom-container, #overlay-image {
+  opacity: 1;
+}

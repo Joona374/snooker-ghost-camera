@@ -1,0 +1,1 @@
+# For future use, this file will contains utility functions for the Flask application.
