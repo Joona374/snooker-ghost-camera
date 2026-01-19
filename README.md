@@ -131,8 +131,8 @@ Collaborated with a teammate who led the CV development. My contributions includ
 
 ```bash
 # Clone the repository
-git clone https://github.com/Joona374/snooker-camera-portfolio-version.git
-cd snooker-camera-portfolio-version
+git clone https://github.com/Joona374/snooker-ghost-camera.git
+cd snooker-ghost-camera
 
 # Install dependencies
 pip install -r requirements.txt
